@@ -1,4 +1,4 @@
-package com.tdj.spring.e01.ioc.bean;
+package com.tdj.spring.eg01.ioc.bean;
 
 import org.springframework.beans.factory.annotation.Autowired;
 

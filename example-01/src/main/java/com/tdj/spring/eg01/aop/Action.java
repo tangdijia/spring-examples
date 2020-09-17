@@ -1,4 +1,4 @@
-package com.tdj.spring.e01.aop;
+package com.tdj.spring.eg01.aop;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

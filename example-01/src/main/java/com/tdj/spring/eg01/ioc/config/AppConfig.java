@@ -1,13 +1,13 @@
-package com.tdj.spring.e01.ioc.config;
+package com.tdj.spring.eg01.ioc.config;
 
-import com.tdj.spring.e01.ioc.bean.Teacher;
+import com.tdj.spring.eg01.ioc.bean.Teacher;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.FilterType;
 import org.springframework.stereotype.Controller;
 
-import com.tdj.spring.e01.ioc.bean.Student;
+import com.tdj.spring.eg01.ioc.bean.Student;
 
 /**
  * 

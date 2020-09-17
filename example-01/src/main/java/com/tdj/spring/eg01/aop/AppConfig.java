@@ -1,4 +1,4 @@
-package com.tdj.spring.e01.aop;
+package com.tdj.spring.eg01.aop;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

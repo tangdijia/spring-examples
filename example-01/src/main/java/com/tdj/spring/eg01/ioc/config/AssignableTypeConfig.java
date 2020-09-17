@@ -1,6 +1,6 @@
-package com.tdj.spring.e01.ioc.config;
+package com.tdj.spring.eg01.ioc.config;
 
-import com.tdj.spring.e01.ioc.bean.TestObject;
+import com.tdj.spring.eg01.ioc.bean.TestObject;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.FilterType;

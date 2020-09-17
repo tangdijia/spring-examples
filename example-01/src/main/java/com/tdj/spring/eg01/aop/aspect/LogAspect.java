@@ -1,8 +1,8 @@
-package com.tdj.spring.e01.aop.aspect;
+package com.tdj.spring.eg01.aop.aspect;
 
 import java.lang.reflect.Method;
 
-import com.tdj.spring.e01.aop.Action;
+import com.tdj.spring.eg01.aop.Action;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
@@ -21,7 +21,7 @@ import org.springframework.stereotype.Component;
 public class LogAspect {
 
   // 定义切点
-  @Pointcut("@annotation(com.tdj.spring.e01.aop.Action)")
+  @Pointcut("@annotation(com.tdj.spring.eg01.aop.Action)")
   public void annotationPointCut() {};
 
   @After(value = "annotationPointCut()")
@@ -37,7 +37,7 @@ public class LogAspect {
    * 
    * @param joinPoint
    */
-  @Before(value = "execution(* com.tdj.spring.e01.aop.service.DemoMethodService.*(..))")
+  @Before(value = "execution(* com.tdj.spring.eg01.aop.service.DemoMethodService.*(..))")
   public void before(JoinPoint joinPoint) {
     MethodSignature signature = (MethodSignature) joinPoint.getSignature();
     Method method = signature.getMethod();

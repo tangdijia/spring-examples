@@ -1,9 +1,9 @@
-package com.tdj.spring.e01.aop;
+package com.tdj.spring.eg01.aop;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.tdj.spring.e01.aop.service.DemoAnnotationService;
-import com.tdj.spring.e01.aop.service.DemoMethodService;
+import com.tdj.spring.eg01.aop.service.DemoAnnotationService;
+import com.tdj.spring.eg01.aop.service.DemoMethodService;
 
 /**
  * 

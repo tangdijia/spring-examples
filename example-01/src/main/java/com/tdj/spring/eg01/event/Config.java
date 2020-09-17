@@ -1,4 +1,4 @@
-package com.tdj.spring.e01.event;
+package com.tdj.spring.eg01.event;
 
 import org.springframework.context.annotation.ComponentScan;
 

@@ -1,9 +1,9 @@
-package com.tdj.spring.e01.ioc;
+package com.tdj.spring.eg01.ioc;
 
-import com.tdj.spring.e01.ioc.config.AssignableTypeConfig;
+import com.tdj.spring.eg01.ioc.config.AssignableTypeConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.tdj.spring.e01.ioc.bean.CatBean;
+import com.tdj.spring.eg01.ioc.bean.CatBean;
 
 /**
  * 
